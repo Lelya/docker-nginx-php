@@ -16,7 +16,7 @@ Docker с Nginx, PHP-FPM
   cd docker-nginx-php
   ```
 
-###  Дерево проекта
+##  Дерево проекта
 
 ```sh
 .

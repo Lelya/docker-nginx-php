@@ -48,7 +48,7 @@ Docker с Nginx, PHP-FPM
 
 3. Откройте в браузере:
 
-     * [http://localhost:8000](http://localhost:8000/)
+     * [http://localhost:8080](http://localhost:8000/)
 
  4. Остановка и очистка сервисов
 

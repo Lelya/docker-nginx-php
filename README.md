@@ -30,7 +30,7 @@ Docker с Nginx, PHP-FPM
 └── README.md
 └── docker-compose.yml
 └── site.conf
-
+```
 
 ## Запуск приложения
 

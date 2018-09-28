@@ -21,7 +21,7 @@ foreach($objects as $object){
         * Имя файла состоит из цифр и букв латинского алфавита.
         * Файл имеют расширение ixt.
         */
-        if(preg_match('~^[A-Za-z0-9]*[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*\.ixt$~', $object->getFileName()))
+        if(preg_match('~(?:(?:[[:alnum:]]+[A-Za-z]{1}[\d]{1}[[:alnum:]]{0,})|(?:[[:alnum:]]+[\d]{1}[A-Za-z]{1}[[:alnum:]]{0,}))\.ixt$~', $object->getFileName()))
                 array_push($array_name_files, $object->getFileName());
 }
 
